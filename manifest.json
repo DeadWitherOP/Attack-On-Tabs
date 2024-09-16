@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Attack on Tabs",
+  "version": "1.0",
+  "description": "New Tabs are boring, custom new tabs are better",
+  "chrome_url_overrides": {
+    "newtab": "aot_page.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "iconAOT.png",
+    "48": "iconAOT.png",
+    "128": "iconAOT.png"
+  }
+}
